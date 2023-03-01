@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.app {
+  width: 400px;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.taskInput {
+  flex-grow: 3;
+  padding: 1rem;
+}
+
+.submitButton {
+  flex-grow: 1;
+  background-color: purple;
+  color: #fff;
+  border: none;
+}
+
+.tasklist {
+  padding: 2rem;
+  border: 1px solid purple;
+}
+p {
+  padding: 2rem;
+  background-color: purple;
+  color: #fff;
+}
